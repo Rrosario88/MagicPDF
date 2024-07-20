@@ -1,0 +1,54 @@
+# Exclude myenv folder
+myenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Other common Python-related files and folders to ignore
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Environment variables
+.env
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
